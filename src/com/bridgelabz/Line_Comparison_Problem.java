@@ -32,8 +32,11 @@ public class Line_Comparison_Problem {
         if(lineOneLength == lineTwoLength ) {
             System.out.println("Lines are Equal");
         }
+        else if(lineOneLength > lineTwoLength){
+            System.out.println("Line 1 is greater than Line 2 ");
+        }
         else {
-            System.out.println("Lines are not Equal");
+            System.out.println("Line 2 is greater than Line 1 ");
         }
     }
 }
